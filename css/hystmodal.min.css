@@ -55,16 +55,16 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     padding-right: 15px;
     padding-left: 15px;
 }
 .hystmodal__window {
-    margin: 50px 0;
+    margin: 12px 0;
     box-sizing: border-box;
     flex-shrink: 0;
     flex-grow: 0;
-    background: #fff;
+    /* background: #fff; */
     width: 600px;
     max-width: 100%;
     overflow: visible;
