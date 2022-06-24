@@ -37,6 +37,9 @@
     justify-content: flex-start;
     z-index: 99;
     visibility: hidden;
+
+    height: 700px;
+    max-height: 100%;
 }
 .hystmodal--active {
     opacity: 1;
@@ -55,9 +58,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    justify-content: end;
 }
 .hystmodal__window {
     margin: 12px 0;
@@ -110,6 +111,8 @@
         margin: 0;
     }
 }
+
+
 
 
 
@@ -215,16 +218,40 @@
     width: 100%;
   }
   
-  /* .btn-block + .btn-block {
-    margin-top: 0.5rem;
-  }
-  
-  input[type="submit"].btn-block,
-  input[type="reset"].btn-block,
-  input[type="button"].btn-block {
-    width: 100%;
-  } */
+
 
   .btn-color {
     background-color: #00d1a0;
   }
+
+
+
+
+.button {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	/* margin: 5px; */
+	padding: 0 22px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #1ABC9C;
+	color: #FFF;
+	font-weight: 700;
+	/*text-transform: uppercase;*/
+	letter-spacing: 1px;
+	border: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+
+
+.button:hover {
+	background-color: #444;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
